@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-image: url(https://codejudge-question-artifacts-dev.s3.amazonaws.com/q-795/bg-header-desktop.svg);
+    background-color: #589f9f;
+}
+
+.filteredData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.row{
+    // display: flex; justify-content: space-between; margin: 10px 5px;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
